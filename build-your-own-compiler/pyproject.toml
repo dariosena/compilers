@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "build-your-own-compiler"
+version = "0.1.0"
+description = "From Source Code To Machine Code: Build Your Own Compiler From Scratch"
+authors = ["Emanuel D R Sena <dariosena@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.test]
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
